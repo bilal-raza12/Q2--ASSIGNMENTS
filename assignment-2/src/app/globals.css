@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  
+  height: 130;
+  font-size: 33px;
+  width: 500px;
+}
+
+.profile-pic {
+  height: 500px;
+  width: 500px;
+  /* border: 2px solid red;     */
+}
+
+.profile-pic img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 78px;
+}
+
+span{
+  color: azure;
+}
