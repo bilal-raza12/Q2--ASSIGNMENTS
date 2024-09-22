@@ -9,7 +9,7 @@ export default function Home() {
           <strong>
             <span>Muhammad Bilal Raza,</span>{" "}
           </strong>{" "}
-          I am a Nextjs Developer and a passionate and dedicated student of
+          I am a Web Developer and a passionate and dedicated student of
           GIAIC
         </p>
       </div>
