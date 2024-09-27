@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    background-color: rgb(22, 7, 104);
+    color: white;
+    /* overflow: scroll; */
+    height: 100vh;
+
+
+}
+.navbar{
+    height: 100px;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+    position: fixed;
+    /* margin: 0 auto; */
+    background-color: rgb(22, 22, 124);
+    color: white;
+    width: 100%;
+    
+
+    /* box-shadow: 2px 2px 2px rgba(5, 109, 33, 0.5); */
+
+    
+    
+    
+    /* background-color: red; */
+    
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 31px 30px;
+    margin-bottom: 20px;
+    
+
+  
+}
+
+.navbar  ul li {
+    margin: 0px 30px;
+
+}
+
+.navbar ul li:hover{
+    text-decoration: underline;
+}
+
+
+   
+.main {
+    /* background-color: black;
+    color: white; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .description {
+    
+    height: 130;
+    font-size: 33px;
+    width: 500px;
+  }
+  
+  .profile-pic {
+    height: 90vh;
+    width: 60vh;
+    /* border: 2px solid red;     */
+  }
+  
+  .profile-pic img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 78px;
+  }
+  
+  span{
+    color: rgb(37, 227, 227);
+  }
+  
+.about-me {
+  height: 90vh;
+
+}
+
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center; 
+  color: black;
+  /* text-align: left; */
+  /* text-align: center; */
+  height: 90vh;
+}
+
+
+.about-me-container h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+.footer{
+  height: 100px;
+    /* margin-bottom: 5px; */
+    padding: 8px 10px;
+    /* position: fixed; */
+    /* margin: 0 auto; */
+    background-color: rgb(125, 125, 143);
+    color: white;
+    height: 150px;
+    
+}
+
+.contact-me{
+  color: black;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center; 
+  color: black;
+  /* text-align: left; */
+  /* text-align: center; */
+  height: 90vh;
+}
+
+.portfolio-container{
+  color: black;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center; 
+  color: black;
+  /* text-align: left; */
+  /* text-align: center; */
+  height: 90vh;
+}
